@@ -1,4 +1,4 @@
-# Word-Guessing-Game
+# Word Guessing Game
 
 ## Game Rules
 Word guessing game created using object oriented C++ programming
