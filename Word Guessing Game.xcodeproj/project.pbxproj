@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29311936296B327F009491FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29311935296B327F009491FA /* main.cpp */; };
+		2931193E296B3321009491FA /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2931193C296B3321009491FA /* Queue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		29311932296B327F009491FA /* Word Guessing Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Word Guessing Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29311935296B327F009491FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2931193C296B3321009491FA /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		2931193F296B3339009491FA /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				29311935296B327F009491FA /* main.cpp */,
+				2931193C296B3321009491FA /* Queue.cpp */,
+				2931193F296B3339009491FA /* Queue.h */,
 			);
 			path = "Word Guessing Game";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29311936296B327F009491FA /* main.cpp in Sources */,
+				2931193E296B3321009491FA /* Queue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
